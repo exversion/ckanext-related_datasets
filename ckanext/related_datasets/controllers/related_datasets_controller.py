@@ -30,7 +30,7 @@ class RelatedDatasetsController(BaseController):
 	def list(self):
 		q = request.params['q']
 		source = request.params['source']
-		internal_only =config.get('ckan.related_datasets.internal', False)
+		internal_only =config.get('ckanext.related_datasets.internal', False)
 		if internal_only:
 			r = requests.get('https://www.exversion.com/api/v1/search?q=%s&source=%s' % (q, source), headers={'ckan-referral':source})
 		else:

@@ -29,29 +29,17 @@
     :alt: License
 
 =============
-ckanext-related-datasets
+Related Datasets
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+image:: https://www.exversion.com/ckan-related-datasets.png
 
-
-------------
-Requirements
-------------
-
-For example, you might want to mention here which versions of CKAN this
-extension works with.
+Adds related datasets to the footer of every dataset page on a CKAN instance. Give priority to results hosted on your own CKAN site. Powered by <http://www.data-search-engine.com>.
 
 
 ------------
 Installation
 ------------
-
-.. Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
 
 To install ckanext-related-datasets:
 
@@ -76,11 +64,9 @@ To install ckanext-related-datasets:
 Config Settings
 ---------------
 
-Document any optional config settings here. For example::
+Prioritize matches on your own domain by adding this line to your configuration
 
-    # The minimum number of hours to wait before re-checking a resource
-    # (optional, default: 24).
-    ckanext.related-datasets.some_setting = some_default_value
+    ckanext.related_datasets.internal = True
 
 
 ------------------------
@@ -109,58 +95,3 @@ coverage installed in your virtualenv (``pip install coverage``) then run::
 
     nosetests --nologcapture --with-pylons=test.ini --with-coverage --cover-package=ckanext.related-datasets --cover-inclusive --cover-erase --cover-tests
 
-
----------------------------------
-Registering ckanext-related-datasets on PyPI
----------------------------------
-
-ckanext-related-datasets should be availabe on PyPI as
-https://pypi.python.org/pypi/ckanext-related-datasets. If that link doesn't work, then
-you can register the project on PyPI for the first time by following these
-steps:
-
-1. Create a source distribution of the project::
-
-     python setup.py sdist
-
-2. Register the project::
-
-     python setup.py register
-
-3. Upload the source distribution to PyPI::
-
-     python setup.py sdist upload
-
-4. Tag the first release of the project on GitHub with the version number from
-   the ``setup.py`` file. For example if the version number in ``setup.py`` is
-   0.0.1 then do::
-
-       git tag 0.0.1
-       git push --tags
-
-
-----------------------------------------
-Releasing a New Version of ckanext-related-datasets
-----------------------------------------
-
-ckanext-related-datasets is availabe on PyPI as https://pypi.python.org/pypi/ckanext-related-datasets.
-To publish a new version to PyPI follow these steps:
-
-1. Update the version number in the ``setup.py`` file.
-   See `PEP 440 <http://legacy.python.org/dev/peps/pep-0440/#public-version-identifiers>`_
-   for how to choose version numbers.
-
-2. Create a source distribution of the new version::
-
-     python setup.py sdist
-
-3. Upload the source distribution to PyPI::
-
-     python setup.py sdist upload
-
-4. Tag the new release of the project on GitHub with the version number from
-   the ``setup.py`` file. For example if the version number in ``setup.py`` is
-   0.0.2 then do::
-
-       git tag 0.0.2
-       git push --tags
