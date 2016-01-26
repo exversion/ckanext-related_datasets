@@ -1,0 +1,20 @@
+{% resource 'related_datasets/exv-related.js' %}
+{% resource 'related_datasets/exv-related.css' %}
+
+<section class="additional-info">
+  <h3>{{ _('Related Datasets') }}</h3>
+  <div id="exv-related-datasets" data-module="exv-related" data-query="{{pkg_dict.title}}">
+    
+  <ul class="media-grid masonry" data-module="media-grid">
+    <li class="exv-related related-item media-item masonry-brick" data-module="related-item">
+    <center><img src="/images/exv-related-datasets-loader.gif"></center>
+  </li>
+  <li class="exv-related related-item media-item masonry-brick" data-module="related-item">
+    <center><img src="/images/exv-related-datasets-loader.gif"></center>
+  </li>
+  <li class="exv-related related-item media-item masonry-brick" data-module="related-item">
+    <center><img src="/images/exv-related-datasets-loader.gif"></center>
+  </li>  
+</ul>
+</div>
+</section>
