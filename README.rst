@@ -32,9 +32,9 @@
 Related Datasets
 =============
 
-image:: https://www.exversion.com/ckan-related-datasets.png
+.. image:: https://www.exversion.com/ckan-related-datasets.png
 
-Adds related datasets to the footer of every dataset page on a CKAN instance. Give priority to results hosted on your own CKAN site. Powered by <http://www.data-search-engine.com>.
+Adds related datasets to the footer of every dataset page on a CKAN instance. Give priority to results hosted on your own CKAN site. Powered by http://www.data-search-engine.com
 
 
 ------------
