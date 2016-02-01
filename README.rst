@@ -2,31 +2,11 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/exversion/ckanext-related-datasets.svg?branch=master
-    :target: https://travis-ci.org/exversion/ckanext-related-datasets
+.. image:: https://travis-ci.org/exversion/ckanext-related_datasets.svg?branch=master
+    :target: https://travis-ci.org/exversion/ckanext-related_datasets
 
-.. image:: https://coveralls.io/repos/exversion/ckanext-related-datasets/badge.png?branch=master
-  :target: https://coveralls.io/r/exversion/ckanext-related-datasets?branch=master
-
-.. image:: https://pypip.in/download/ckanext-related-datasets/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-related-datasets/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-related-datasets/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-related-datasets/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-related-datasets/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-related-datasets/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-related-datasets/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-related-datasets/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-related-datasets/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-related-datasets/
-    :alt: License
+.. image:: https://coveralls.io/repos/exversion/ckanext-related_datasets/badge.png?branch=master
+  :target: https://coveralls.io/r/exversion/ckanext-related_datasets?branch=master
 
 =============
 Related Datasets
