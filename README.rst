@@ -32,7 +32,7 @@
 Related Datasets
 =============
 
-.. image:: https://www.exversion.com/ckan-related-datasets.png
+.. image:: https://www.exversion.com/images/ckan-related-datasets.png
 
 Adds related datasets to the footer of every dataset page on a CKAN instance. Give priority to results hosted on your own CKAN site. Powered by http://www.data-search-engine.com
 
@@ -64,7 +64,7 @@ To install ckanext-related-datasets:
 Config Settings
 ---------------
 
-Prioritize matches on your own domain by adding this line to your configuration
+Prioritize matches on your own domain by adding this line to your configuration::
 
     ckanext.related_datasets.internal = True
 
